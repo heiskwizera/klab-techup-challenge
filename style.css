@@ -1,0 +1,99 @@
+@font-face {
+    font-family: 'RooneySans';
+    src: url(font/RooneySansRegular.OTF);
+    font-display: swap;
+}
+
+body {
+    font-family: 'RooneySans';
+}
+
+
+.features {
+    text-align: center;
+}
+
+.owl-carousel .owl-item img {
+    display: inline-block !important;
+    width: auto !important;
+}
+
+.bg-custom {
+    background-color: #f0f5fa;
+}
+
+.logo-text {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #19426b;
+}
+
+.logo img {
+    width: 140px;
+}
+
+p {
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.form-component {
+    margin: 0 auto;
+    width: 92%;
+    padding: 20px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    background: hsl(204deg 45% 98%);
+}
+
+.agree {
+    color: #000;
+    font-weight: bolder;
+}
+
+h2 {
+    color: #010407;
+    font-weight: bolder;
+}
+
+.indicate {
+    font-size: smaller;
+}
+
+.p-2 {
+    border-radius: 5px;
+    margin: 5px;
+}
+.line {
+    position: relative;
+    margin: 10px 0;
+}
+
+.line span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    padding: 0 10px;
+}
+
+.line:before,
+.line:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    width: 50%;
+    height: 1px;
+    background: #ddd;
+}
+
+.line:before {
+    right: 50%;
+    margin-right: 15px;
+}
+
+.line:after {
+    left: 50%;
+    margin-left: 15px;
+}

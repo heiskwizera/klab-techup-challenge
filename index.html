@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-lg-12 mx-auto">
+                <div class="row shadow-sm bg-white text-black">
+                    <div class="col-12 col-md-6 bg-custom">
+                        <h4 class="text-left mt-3 logo">
+                            <img src="images/logo.png">
+                        </h4>
+                        <div class="text-black mt-3">
+                            <div class="features owl-theme owl-carousel">
+                                <div> <img src="images/1.jpg" height="370" />
+                                    <p>
+                                        Let's see what we have new, Check it out! So
+                                        maybe write here something more.
+                                    </p>
+                                </div>
+                                <div> <img src="images/2.jpg" height="370" />
+                                    <p>
+                                        Let's see what we have new, Check it out! So
+                                        maybe write here something more.
+                                    </p>
+                                </div>
+                                <div> <img
+                                        src="images/3.jpg"
+                                        height="370" />
+                                    <p>
+                                        Let's see what we have new, Check it out! So
+                                        maybe write here something more.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+                    <div class="col-12 col-md-6">
+                        <form action="#" method="POST" class="bg-custom form-component mt-4 mb-4">
+                            <div class="p-4">
+                                <h2 class="text-center">Create Your Account</h2>
+                                <h6 class="text-center">It's Free and Easy</h6>
+                            </div>
+                            <div class="form-group">
+                                <label for="name">Your Name</label>
+                                <input type="text" class="form-control" id="name" name="name"
+                                    placeholder="Enter your name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email or Phone Number</label>
+                                <input type="email" class="form-control" id="email" name="email"
+                                    placeholder="Type your e-mail or phone number" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="password">Password</label>
+                                <input type="password" class="form-control" id="password" name="password"
+                                    placeholder="Type your password" required>
+                                <label class="indicate">Must be 8 characters atleast</label>
+                            </div>
+                            <div class="form-group">
+                                <input type="checkbox" name="agree" id="agree">
+                                <label for="msg" >
+                                    By creating account means you agree to our <a href="#" class="agree">Terms of
+                                        Service</a> and our <a href="#" class="agree">Privacy Policy</a>
+
+                                </label>
+                            </div>
+                            <button type="submit" class="btn btn-primary col-12 text-center">Register</button>
+
+                            <div class="text-center mt-2">
+                                <div class="line mb-3">
+                                    <span>Or</span>
+                                </div>
+                               
+                            </div>
+                            <div class="text-center mt-2">
+
+                                <div class="d-flex justify-content-center mb-3 ">
+                                    <div class="p-2 bg-white">
+                                        <a href="#">
+                                            <img src="https://img.icons8.com/color/48/000000/google-logo.png" />
+                                        </a>
+                                    </div>
+                                    <div class="p-2 bg-white">
+                                        <a href="#">
+                                            <img src="https://cdn-icons-png.flaticon.com/512/15/15476.png" width="48" />
+                                        </a>
+                                    </div>
+                                    <div class="p-2 bg-white">
+                                        <a href="#">
+                                            <img src="https://img.icons8.com/color/48/000000/facebook-new.png" />
+                                        </a>
+                                    </div>
+                                   
+                                </div>
+    
+    
+                            </div>
+                        </form>
+                       
+
+
+
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"></script>
+    <script>
+        var owl = $('.owl-carousel');
+        owl.owlCarousel({
+            items: 1,
+            loop: true,
+            margin: 10,
+            autoplay: true,
+            autoplayTimeout: 3000,
+            autoplayHoverPause: true
+        });
+
+        document.body.style.zoom = "90%";
+        
+    </script>
+
+</body>
+
+
+
+</html>
